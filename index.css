@@ -1,0 +1,291 @@
+:root {
+        --completa: url(img/zaka-completa.png);
+        --laptop: url(img/fondo-zaka-completa-lap.png);
+        --pcuadro: url(img/fondo-zaka-completa-4\,3.png);
+        --pcuadro2:url(img/fondo-zaka-completa-4\,3\,2.png);
+        --mobil: url(img/Fondo-movil.png);
+        --rubik:'Rubik', sans-serif;
+        --negro: #000000;
+        --negroc: #0f0f0f;
+        --blanco: #ffffff;
+    }
+      body {
+        background-color: var(--negro);
+      }
+      /* Navegacion */
+      header {
+        width: 100%;
+        margin-top: -25vh;
+        background-color: var(--negroc);
+        padding: 2.5rem;
+        text-align: center;
+        border-bottom: 0.8rem outset var(--negroc);
+        position: fixed;
+      }
+      .L {
+        float: left;
+      }
+      .C {
+        margin-left: 1vw;
+        float: right;
+      }
+      /*Hcer pedido*/
+      .htp {
+        width: 98%;
+        height: 10vh;
+        text-align: center;
+        margin-top: 25vh;
+        margin-bottom: 4vh;
+        background-color: var(--negro);
+      }
+      .P {
+        font-size: 2.5vw;
+        color: var(--blanco);
+        text-decoration: none;
+      }
+      .P:hover {
+        color: var(--negroc);
+      }
+      /* Contenido */
+      .en {
+        width: 100%;
+        height: 50vh;
+        padding: 1rem;
+        margin-top: 0vh;
+        background-color: var(--negroc);
+      }
+      .men {
+        width: 100%;
+        height: 50vh;
+        padding: 0.5rem;
+        margin-top: 5vh;
+        background-color: var(--negroc);
+      }
+      .promo {
+        width: 100%;
+        height: 50vh;
+        padding-top: 3rem;
+        padding-bottom: 2rem;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+        background-color: var(--negroc);
+      }
+      /* Ajustes de Contenido */
+      /* Ubucacion */
+      .en img {
+        margin-top: -10vh;
+        float: left;
+      }
+      .en h1 {
+        color: var(--blanco);
+        font-size: 2.5em;
+        margin-left: 25vw;
+        text-align: center;
+      }
+      .en iframe{
+        margin-right: 16vw;
+        float: right;
+      }
+      /* Menu */  
+      .men {
+        padding: 0;
+        background-image: url(img/menu/menu.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+      }
+      /* Promo */ 
+      .M {
+        float: right
+      } 
+      .P1 {
+        margin-top: 5vh;
+        float: left
+      }
+      .P2 {
+        margin-top: 5vh;
+        margin-left: 17vw;
+      }
+      .P3 {
+        margin-top: 5vh;
+        float: right;
+      }
+      /* Redes Sociales */ 
+      .RS a img {
+        padding-left: 1vw;
+      }
+      .RS {
+        text-align: center;
+      }
+      /* FIN */ 
+      footer {
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        font-size: 1vw;
+        text-align: center;
+        color: var(--blanco);
+      }
+    @media screen and (max-width: 1366px) {
+      /* Navegacion */
+      header {
+        padding: 1.5rem;
+      }
+      .L img {
+        width: 5vw;
+      }
+      .C img  {
+        width: 5vw;
+      }
+      .UR {
+        width: 5vw;
+        height: 5vh;
+      }
+      /*Hcer pedido*/
+      .htp {
+        width: 100%;
+        height: 10vh;
+        margin-top: 25vh;
+        margin-bottom: 4vh;
+      }
+      .P {
+        font-size: 2.5vw;
+      }
+      /* Ajustes de Contenido */
+      /* Ubucacion */
+      .en img {
+        width: 20vw;
+      }
+      .en h1 {
+        margin-right: 5vw;
+        font-size: 1.5em;
+      }
+      .en iframe{
+        width: 35vw;
+        height:35vh;
+        margin-right: 21vw;
+      }
+      /* Menu */  
+      .men {
+        padding: 0;
+        background-image: url(img/menu/menu.png);
+        background-repeat: no-repeat;
+        background-size: 90%;
+        background-position: center;
+      }
+      /* Promo */ 
+      .P1 {
+        margin-top: 0vh;
+        width: 25vw;
+      }
+      .P2 {
+        margin-top: 0vh;
+        width: 25vw;
+        margin-left: 10vw;
+      }
+      .P3 {
+        margin-top: 0vh;
+        width: 25vw;
+      }
+      /* Redes Sociales */ 
+      .RS a img {
+        width: 5vw;
+      }
+      .RS {
+        margin-top: 10vh;
+      }
+      /* FIN */ 
+      footer {
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        font-size: 1vw;
+        text-align: center;
+        color: var(--blanco);
+      }
+}
+    @media screen and (max-width: 1024px) {
+      
+    }
+    @media screen and (max-width: 500px) {
+      /* Navegacion */
+      header {
+        margin-top: -14vh;
+        padding: 1rem;
+      }
+      .L img {
+        width: 15vw;
+      }
+      .C img  {
+        width: 15vw;
+      }
+      /*Hcer pedido*/
+      .htp {
+        width: 100%;
+        height: 2vh;
+        margin-top: 14vh;
+        margin-bottom: 4vh;
+      }
+      .P {
+        font-size: 7vw;
+      }
+      /* Ajustes de Contenido */
+      /* Ubucacion */
+      .en {
+        padding: 0.2vw;
+      }
+      .en h1 {
+        margin-left: 5vw;
+        font-size: 1.5em;
+      }
+      .en img {
+        margin-left: -5vw;
+        margin-top: 5vh;
+        width: 45vw;
+      }
+      .en iframe{
+        width: 50vw;
+        height: 40vh;
+        margin-right: 5vw;
+      }
+      /* Menu */  
+      .men {
+        width: 100%;
+        height: 50vh;
+        padding: 0;
+        background-image: url(img/menu/menu\ movil.png);
+        background-repeat: no-repeat;
+        background-size: 90%;
+        background-position: center;
+      }
+      /* Promo */ 
+      .P1 {
+        margin-top: 20vh;
+        width: 50vw;
+      }
+      .P2 {
+        margin-top: -4vh;
+        width: 55vw;
+        margin-left: -32.5vw;
+      }
+      .P3 {
+        margin-top: 4vh;
+        width: 50vw;
+      }
+      /* Redes Sociales */ 
+      .RS a img {
+        width: 20vw;
+        padding-left: 3vw;
+        padding-right: 3vw;
+      }
+      .RS {
+        margin-top: 5vh;
+      }
+      /* FIN */ 
+      footer {
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        font-size: 2.5vw;
+        text-align: center;
+        color: var(--blanco);
+      }
+}
+      

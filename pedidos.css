@@ -1,0 +1,19 @@
+:root {
+    --completa: url(img/zaka-completa.png);
+    --laptop: url(img/fondo-zaka-completa-lap.png);
+    --pcuadro: url(img/fondo-zaka-completa-4\,3.png);
+    --pcuadro2:url(img/fondo-zaka-completa-4\,3\,2.png);
+    --mobil: url(img/Fondo-movil.png);
+    --rubik:'Rubik', sans-serif;
+    --negro: #000000;
+    --negroc: #0f0f0f;
+    --blanco: #ffffff;
+}
+*{
+    font-family: var(--rubik);
+}
+body {
+    background-image: var(--laptop);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
